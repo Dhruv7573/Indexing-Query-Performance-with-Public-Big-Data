@@ -1,0 +1,48 @@
+-- schema.sql
+CREATE DATABASE IF NOT EXISTS nyc311;
+USE nyc311;
+
+DROP TABLE IF EXISTS service_requests;
+CREATE TABLE service_requests (
+  unique_key BIGINT NOT NULL PRIMARY KEY,
+  created_date DATETIME NULL,
+  closed_date DATETIME NULL,
+  agency VARCHAR(100),
+  agency_name VARCHAR(255),
+  complaint_type VARCHAR(255),
+  descriptor VARCHAR(512),
+  location_type VARCHAR(255),
+  incident_zip VARCHAR(20),
+  incident_address VARCHAR(255),
+  street_name VARCHAR(255),
+  cross_street_1 VARCHAR(255),
+  cross_street_2 VARCHAR(255),
+  intersection_street_1 VARCHAR(255),
+  intersection_street_2 VARCHAR(255),
+  address_type VARCHAR(50),
+  city VARCHAR(100),
+  landmark VARCHAR(255),
+  facility_type VARCHAR(255),
+  status VARCHAR(50),
+  due_date DATETIME,
+  resolution_description TEXT,
+  resolution_action_updated_date DATETIME,
+  community_board VARCHAR(50),
+  bbl VARCHAR(50),
+  borough VARCHAR(50),
+  x_coordinate DOUBLE,
+  y_coordinate DOUBLE,
+  open_data_channel_type VARCHAR(100),
+  park_facility_name VARCHAR(255),
+  park_borough VARCHAR(50),
+  vehicle_type VARCHAR(100),
+  taxi_company_borough VARCHAR(50),
+  taxi_pick_up_location VARCHAR(255),
+  bridge_highway_name VARCHAR(255),
+  bridge_highway_direction VARCHAR(50),
+  road_ramp VARCHAR(100),
+  bridge_highway_segment VARCHAR(255),
+  latitude DOUBLE,
+  longitude DOUBLE,
+  location VARCHAR(255)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
