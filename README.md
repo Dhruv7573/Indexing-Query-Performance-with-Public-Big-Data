@@ -105,17 +105,7 @@ Add relevance explanation:
 
 ---
 
-## 6. Final Deliverables Checklist
-✔ Query timings before/after  
-✔ EXPLAIN screenshots  
-✔ FULLTEXT test  
-✔ Indexes with rationale  
-✔ Business analysis  
-✔ README (this file)
-
----
-
-## 7. Folder Structure
+## 6. Folder Structure
 
 ```
 project/
