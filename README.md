@@ -119,19 +119,6 @@ Add relevance explanation:
 
 
 
-## 6. Folder Structure
 
-```
-project/
- ├── data/
- │    └── nyc_311.csv
- ├── schema.sql
- ├── create-indexes.sql
- ├── queries_before.sql
- ├── queries_after.sql
- ├── README.md
-```
-
----
 
 
