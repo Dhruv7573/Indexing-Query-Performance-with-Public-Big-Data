@@ -104,8 +104,20 @@ Add relevance explanation:
 - Improves speed for citizen-response operations.
 
 ---
-### Screenshits:
+### Screenshots:
 <img width="910" height="169" alt="Baseline FULLTEXT Query Results (Before FULLTEXT Index)" src="https://github.com/user-attachments/assets/efd245fe-a45a-49e3-9b5e-660427545656" />
+<img width="910" height="189" alt="Baseline Scalar Query Results (Before Indexing)" src="https://github.com/user-attachments/assets/d4efa1e0-de47-42fe-85c9-8b94f326a031" />
+<img width="910" height="187" alt="Data loaded successfully" src="https://github.com/user-attachments/assets/ac90f0cd-5102-4ac7-a4a7-212e6c71c097" />
+<img width="910" height="326" alt="EXPLAIN Plan — Scalar Query (After B-tree Index)" src="https://github.com/user-attachments/assets/3267710f-afa7-43e8-a8d3-4169f4c08d29" />
+<img width="910" height="378" alt="EXPLAIN Plan — Scalar Query (Before B-tree Index)" src="https://github.com/user-attachments/assets/6f1290cc-2e78-47b6-9ab5-e907acfc730a" />
+<img width="910" height="169" alt="FULLTEXT Query — After FULLTEXT Index Applied" src="https://github.com/user-attachments/assets/c4118ec5-9ba0-45ea-b1f2-13621926225e" />
+<img width="910" height="216" alt="FULLTEXT query EXPLAIN with FULLTEXT index" src="https://github.com/user-attachments/assets/bb87cfb1-b2fa-4099-ad48-cb3ea8d6fb54" />
+<img width="910" height="164" alt="FULLTEXT query EXPLAIN without FULLTEXT index" src="https://github.com/user-attachments/assets/f3e164fb-bfc2-492c-bbc6-bbc89adc3188" />
+<img width="910" height="227" alt="Scalar Queries — After B-tree Indexes Applied" src="https://github.com/user-attachments/assets/94f17daf-3a14-4045-abb5-009abf862be3" />
+
+
+
+
 
 ## 6. Folder Structure
 
