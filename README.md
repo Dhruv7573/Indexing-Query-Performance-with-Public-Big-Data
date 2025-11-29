@@ -104,6 +104,8 @@ Add relevance explanation:
 - Improves speed for citizen-response operations.
 
 ---
+### Screenshits:
+<img width="910" height="169" alt="Baseline FULLTEXT Query Results (Before FULLTEXT Index)" src="https://github.com/user-attachments/assets/efd245fe-a45a-49e3-9b5e-660427545656" />
 
 ## 6. Folder Structure
 
